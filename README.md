@@ -1,1 +1,4 @@
-# interface-de-streaming-Kenzieflix
+# Visualização:
+
+<img alt="Layout" src="./img/KenzieFlix.gif" width="100%">
+

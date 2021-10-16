@@ -1,0 +1,114 @@
+*{
+  	margin: 0;
+  	padding: 0;
+  	outline: 0;
+  	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #00002e;
+	font-weight: inherit;
+	color: rgb(216, 207, 196);
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+main, header, section, ul, li, footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header img{
+	width: 200px;
+	height: 70px;
+}
+
+header figure{
+	margin: 0;
+}
+
+section{
+	flex-direction: column;
+}
+
+h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	margin: 5% 0;
+	color: rgb(255, 255, 255);
+}
+
+ul{
+	max-width: 858px;
+	flex-flow: row wrap;
+}
+
+li{
+	width: 186px;
+	list-style-type: none;
+	flex-direction: column;
+}
+
+li img{
+	width: 120px;
+	height: 120px;
+}
+
+.addPerfil img{
+	width: 70px;
+	height: 70px;
+}
+
+.addPerfil{
+	padding-top: 40px;
+}
+
+.add{
+	margin-bottom: 30%;
+}
+	
+figure{
+	transition: 0.4s;
+	margin-bottom: 25%;
+}
+
+figure:hover{
+	transition: 0.4s;
+	box-shadow: 1px 1px 10px 2px rgb(255, 255, 255);
+}
+
+.add:hover, header figure:hover{
+	box-shadow: 1px 1px 1px 1px #00002e;
+}
+	
+li:hover h3{
+	color: rgb(255, 255, 255);
+}
+
+footer{
+	margin: 8% 0;
+}
+
+button{
+	transition: 0.4s;
+	background-color: #00002e;
+	padding: 15px 45px;
+	color: rgb(255, 255, 255);
+	border: 1px solid rgb(216, 207, 196);
+}
+button:hover{
+	transition: 0.4s;
+	background-color: #01011b;
+}
+
+@media (min-width: 465px){h2{width: 100vw;}}
+@media (min-width: 620px){.topo figure{width: 100vw;}}
+@media (min-width: 744px){h2{font-size: 60px;}}
+@media (min-width: 1024px){.topo figure{width: 100vw;} ul{width: 858px; flex-flow: row wrap;}}
+			
+
