@@ -1,4 +1,3 @@
-# Visualização:
+# Desktop:
 
-<img alt="Layout" src="./img/KenzieFlix.gif" width="100%">
-
+![Box](https://github.com/bryantorresribeiro/interface-de-streaming-Kenzieflix/blob/main/img/KenzieFlix.gif)
